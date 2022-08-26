@@ -9,15 +9,8 @@
   "scripts": {
     "co": "sui-mono commit",
     "check-release": "sui-mono check",
-    "release": "multi-semantic-release",
+    "release": "sui-mono release",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator"
-    ],
-    "noCi": true
   },
   "keywords": [],
   "author": "",
